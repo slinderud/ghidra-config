@@ -8,6 +8,11 @@ Also contains a few "make ghidra more ida-like" tweaks thanks to [Andoryuu](http
 ![Screenshot of Ghidra](img/Ghidra.png)
 
 
+## How to install
+You have to merge it into ghidras dotfiles yourself:
+
+``` $HOME/.ghidra/.ghidra-9.0/tools ```
+
 
 ## Things to figure out
 - [ ] Get the colour of Function Graph right
