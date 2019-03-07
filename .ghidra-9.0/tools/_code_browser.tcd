@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TOOL_CONFIG CONFIG_NAME="NO_LONGER_USED">
+    <SUPPORTED_DATA_TYPE CLASS_NAME="ghidra.program.model.listing.DataTypeArchive" />
+    <SUPPORTED_DATA_TYPE CLASS_NAME="ghidra.program.model.listing.Program" />
+    <ICON LOCATION="greenDragon24.png" />
+    <TOOL TOOL_NAME="CodeBrowser" INSTANCE_NAME="">
+        <OPTIONS>
+            <CATEGORY NAME="Listing Fields">
+                <STATE NAME="Bytes Field.Maximum Lines To Display" TYPE="int" VALUE="1" />
+                <STATE NAME="Format Code.Flag Function Entry" TYPE="boolean" VALUE="true" />
+                <STATE NAME="Format Code.Flag Jumps and Returns" TYPE="boolean" VALUE="true" />
+                <ENUM NAME="Cursor Text Highlight.Mouse Button To Activate" TYPE="enum" CLASS="ghidra.GhidraOptions$CURSOR_MOUSE_BUTTON_NAMES" VALUE="LEFT" />
+                <STATE NAME="Format Code.  Show Transition Plates" TYPE="boolean" VALUE="true" />
+                <STATE NAME="Format Code.Flag Subroutine Entry" TYPE="boolean" VALUE="true" />
+                <WRAPPED_OPTION NAME="Address Field.Address Display Options" CLASS="ghidra.framework.options.WrappedCustomOption">
+                    <STATE NAME="CUSTOM OPTION CLASS" TYPE="string" VALUE="ghidra.app.util.viewer.field.AddressFieldOptionsWrappedOption" />
+                    <STATE NAME="RightJustify" TYPE="boolean" VALUE="true" />
+                    <STATE NAME="MinHexDigits" TYPE="int" VALUE="8" />
+                    <STATE NAME="PadWithZeros" TYPE="boolean" VALUE="false" />
+                    <STATE NAME="ShowBlockName" TYPE="boolean" VALUE="true" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Selection Colors.Selection Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-1987278" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Selection Colors.Highlight Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-256" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Cursor.Highlight Cursor Line Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-256" />
+                </WRAPPED_OPTION>
+            </CATEGORY>
+            <CATEGORY NAME="Decompiler">
+                <WRAPPED_OPTION NAME="Display.Color for Keywords" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-11776" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Display.Background Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-13816531" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Display.Color for Parameters" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-21889" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Display.Color for Constants" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-2994126" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Display.Color for Current Variable Highlight" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-32768" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Display.Color Default" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-5526613" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Display.Color for Types" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-1315911" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Display.Color for Variables" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-32768" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Display.Color for Comments" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-14861" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Display.Color for Function names" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-9196115" />
+                </WRAPPED_OPTION>
+            </CATEGORY>
+            <CATEGORY NAME="Listing Display">
+                <WRAPPED_OPTION NAME="Background Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-13816531" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Mnemonic Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-1" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Bad Reference Address Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-47546" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="XRef Write Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-11944278" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Address Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-10066330" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Function Parameters Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-32768" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Function Return Type Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-5526613" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Constant Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-2994126" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="XRef Other Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-1777702" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="EOL Comment Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-14861" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Labels, Primary Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-1315911" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Function Tag Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-6433280" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Bytes Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-10921639" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Post-Comment Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-14861" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Labels, Unreferenced Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-8355712" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Entry Point Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-11776" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Pre-Comment Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-14861" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Parameter, Dynamic Storage Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-12363859" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Parameter, Custom Storage Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-8926279" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Registers Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-9196115" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Underline Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-3381505" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Labels, Non-primary Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-1315911" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="XRef, Offcut Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-21889" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Field Name Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-5526613" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="XRef Read Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-12228208" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Separator Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-5526613" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Version Track Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-5592406" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="XRef Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-21889" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Flow Arrow, Not Active Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-5526613" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Variable Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-32768" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Flow Arrow, Active Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-8355712" />
+                </WRAPPED_OPTION>
+                <WRAPPED_OPTION NAME="Function Name Color" CLASS="ghidra.framework.options.WrappedColor">
+                    <STATE NAME="color" TYPE="int" VALUE="-11776" />
+                </WRAPPED_OPTION>
+            </CATEGORY>
+        </OPTIONS>
+    </TOOL>
+</TOOL_CONFIG>
+
