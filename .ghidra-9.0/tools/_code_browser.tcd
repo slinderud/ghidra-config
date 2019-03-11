@@ -43,7 +43,7 @@
                     <STATE NAME="color" TYPE="int" VALUE="-2994126" />
                 </WRAPPED_OPTION>
                 <WRAPPED_OPTION NAME="Display.Color for Current Variable Highlight" CLASS="ghidra.framework.options.WrappedColor">
-                    <STATE NAME="color" TYPE="int" VALUE="-32768" />
+                    <STATE NAME="color" TYPE="int" VALUE="-256" />
                 </WRAPPED_OPTION>
                 <WRAPPED_OPTION NAME="Display.Color Default" CLASS="ghidra.framework.options.WrappedColor">
                     <STATE NAME="color" TYPE="int" VALUE="-5526613" />
@@ -52,14 +52,18 @@
                     <STATE NAME="color" TYPE="int" VALUE="-1315911" />
                 </WRAPPED_OPTION>
                 <WRAPPED_OPTION NAME="Display.Color for Variables" CLASS="ghidra.framework.options.WrappedColor">
-                    <STATE NAME="color" TYPE="int" VALUE="-32768" />
+                    <STATE NAME="color" TYPE="int" VALUE="-9196115" />
                 </WRAPPED_OPTION>
                 <WRAPPED_OPTION NAME="Display.Color for Comments" CLASS="ghidra.framework.options.WrappedColor">
                     <STATE NAME="color" TYPE="int" VALUE="-14861" />
                 </WRAPPED_OPTION>
                 <WRAPPED_OPTION NAME="Display.Color for Function names" CLASS="ghidra.framework.options.WrappedColor">
-                    <STATE NAME="color" TYPE="int" VALUE="-9196115" />
+                    <STATE NAME="color" TYPE="int" VALUE="-32768" />
                 </WRAPPED_OPTION>
+            </CATEGORY>
+            <CATEGORY NAME="Function Graph">
+                <STATE NAME="Scroll Wheel Pans" TYPE="boolean" VALUE="true" />
+                <ENUM NAME="View Settings" TYPE="enum" CLASS="ghidra.graph.viewer.options.ViewRestoreOption" VALUE="START_FULLY_ZOOMED_IN" />
             </CATEGORY>
             <CATEGORY NAME="Listing Display">
                 <WRAPPED_OPTION NAME="Background Color" CLASS="ghidra.framework.options.WrappedColor">
@@ -111,7 +115,7 @@
                     <STATE NAME="color" TYPE="int" VALUE="-11776" />
                 </WRAPPED_OPTION>
                 <WRAPPED_OPTION NAME="Pre-Comment Color" CLASS="ghidra.framework.options.WrappedColor">
-                    <STATE NAME="color" TYPE="int" VALUE="-14861" />
+                    <STATE NAME="color" TYPE="int" VALUE="-3026974" />
                 </WRAPPED_OPTION>
                 <WRAPPED_OPTION NAME="Parameter, Dynamic Storage Color" CLASS="ghidra.framework.options.WrappedColor">
                     <STATE NAME="color" TYPE="int" VALUE="-12363859" />
@@ -162,4 +166,3 @@
         </OPTIONS>
     </TOOL>
 </TOOL_CONFIG>
-
